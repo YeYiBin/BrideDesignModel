@@ -7,20 +7,14 @@
 //
 
 #import "ViewController.h"
-#import "AbstractRemoteControl.h"
-#import "ConcreteRemoteControl.h"
-#import "TVProtocol.h"
-#import "AbstractTV.h"
-#import "TVA.h"
-#import "TVB.h"
 #import "CarStreet.h"
 #import "BusStreet.h"
-
 #import "ConcreteSpeedWay.h"
 #import "AbstractRoad.h"
 #import "ConcreateCar.h"
 #import "ConcreateBus.h"
-
+#import "Man.h"
+#import "Women.h"
 
 //
 @interface ViewController ()
@@ -37,7 +31,7 @@
     //
     [self solveBadExample];
     //
-//    [self showBridgeModel];
+    [self extendPeople];
 }
 
 
@@ -69,7 +63,12 @@
 
 
 #pragma mark ---- 解决坏案例的方式
-
+/*
+ 可以看到，通过对象组合的方式，Bridge 模式把两个角色之间的继承关系改为了耦合的关系，从而使这两者可以从容自若的各自独立的变化，这也是Bridge模式的本意。
+ 这样增加了客户程序与路与汽车的耦合。其实这样的担心是没有必要的，因为这种耦合性是由于对象的创建所带来的，完全可以用创建型模式去解决。在应用时结合创建型设计模式来处理具体的问题。
+ 关键的代码是 AbstractRoad 里有个 AbstractCar 这样的对应关系
+ 可以看出来 如果 Road  和 Car 是 需要的类的总数 是 N+M 的关系 而坏的例子中是 N*M 的类的总数
+ */
 - (void)solveBadExample
 {
     AbstractRoad *road1 = [[ConcreteSpeedWay alloc] init];
@@ -81,29 +80,25 @@
     [road2 run];
 }
 
-
-#pragma mark ----  展示 桥接设计模式
-- (void)showBridgeModel
+#pragma mark ----  进一步拓展 桥接模式
+/*
+ 结合上面的例子,增加一个维度"人",不同的人开着不同的汽车在不同的路上行驶(三个维度);
+ 结合上面增加一个类"人",并重新调用.
+ */
+- (void)extendPeople
 {
-    AbstractRemoteControl *remoteControl = [[ConcreteRemoteControl alloc] init];
-    id<TVProtocol> tvProtocol = [[TVA alloc] init];
-    remoteControl.tvProtocol = tvProtocol;
-    [remoteControl detectTVFunction];
-    NSLog(@"/////////////////////////////////////");
+    NSLog(@"---------------------------------");
+    AbstractRoad *road3 = [[ConcreteSpeedWay alloc] init];
+    road3.car = [[ConcreateBus alloc] init];
     
-    tvProtocol = [[TVB alloc] init];
-    remoteControl.tvProtocol = tvProtocol;
-    [remoteControl detectTVFunction];
+    AbstractPeople *p = [[Man alloc] init];
+    p.road = road3;
+    [p peopleRun];
     
-    /**
-     *  桥接模式：将抽象部分与它的实现部分分离，使它们都可以独立地变化。
-     *  在本例中，AbstractRemoteControl是抽象部分，TVProtocol是其实现部分。
-     */
+    AbstractPeople *p2 = [[Women alloc] init];
+    p2.road = road3;
+    [p2 peopleRun];
     
-    /*
-     桥接模式：
-     通过桥接模式的应用，我们可以把抽象部分与实现部分分离，使它们都可以独立的变化。比如在本例中，对AbstractRemoteControl的修改，不会影响到TVProtocol。同样对TVProtocol的修改，也不会影响AbstractRemoteControl。这正是桥接模式带给我们的便利性。
-     */
 }
 
 

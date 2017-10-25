@@ -20,17 +20,15 @@
 		BB7C6CA31FA036F100FB592D /* ConcreateCar.m in Sources */ = {isa = PBXBuildFile; fileRef = BB7C6CA21FA036F100FB592D /* ConcreateCar.m */; };
 		BB7C6CA61FA0370E00FB592D /* ConcreateBus.m in Sources */ = {isa = PBXBuildFile; fileRef = BB7C6CA51FA0370E00FB592D /* ConcreateBus.m */; };
 		BB7C6CAA1FA03AFD00FB592D /* ConcreateStreet.m in Sources */ = {isa = PBXBuildFile; fileRef = BB7C6CA91FA03AFD00FB592D /* ConcreateStreet.m */; };
+		BBBB78221FA05A030063CCA6 /* AbstractPeople.m in Sources */ = {isa = PBXBuildFile; fileRef = BBBB78211FA05A030063CCA6 /* AbstractPeople.m */; };
+		BBBB78251FA05B440063CCA6 /* Man.m in Sources */ = {isa = PBXBuildFile; fileRef = BBBB78241FA05B440063CCA6 /* Man.m */; };
+		BBBB78281FA05B500063CCA6 /* Women.m in Sources */ = {isa = PBXBuildFile; fileRef = BBBB78271FA05B500063CCA6 /* Women.m */; };
 		BBFC5E881F9F2FE5009E9A3D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BBFC5E871F9F2FE5009E9A3D /* AppDelegate.m */; };
 		BBFC5E8B1F9F2FE5009E9A3D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BBFC5E8A1F9F2FE5009E9A3D /* ViewController.m */; };
 		BBFC5E8E1F9F2FE5009E9A3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBFC5E8C1F9F2FE5009E9A3D /* Main.storyboard */; };
 		BBFC5E901F9F2FE5009E9A3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBFC5E8F1F9F2FE5009E9A3D /* Assets.xcassets */; };
 		BBFC5E931F9F2FE5009E9A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBFC5E911F9F2FE5009E9A3D /* LaunchScreen.storyboard */; };
 		BBFC5E961F9F2FE5009E9A3D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BBFC5E951F9F2FE5009E9A3D /* main.m */; };
-		BBFC5EA01F9F320F009E9A3D /* AbstractRemoteControl.m in Sources */ = {isa = PBXBuildFile; fileRef = BBFC5E9F1F9F320F009E9A3D /* AbstractRemoteControl.m */; };
-		BBFC5EA31F9F32BF009E9A3D /* AbstractTV.m in Sources */ = {isa = PBXBuildFile; fileRef = BBFC5EA21F9F32BF009E9A3D /* AbstractTV.m */; };
-		BBFC5EA61F9F35DF009E9A3D /* TVA.m in Sources */ = {isa = PBXBuildFile; fileRef = BBFC5EA51F9F35DF009E9A3D /* TVA.m */; };
-		BBFC5EA91F9F3672009E9A3D /* TVB.m in Sources */ = {isa = PBXBuildFile; fileRef = BBFC5EA81F9F3672009E9A3D /* TVB.m */; };
-		BBFC5EAC1F9F3896009E9A3D /* ConcreteRemoteControl.m in Sources */ = {isa = PBXBuildFile; fileRef = BBFC5EAB1F9F3896009E9A3D /* ConcreteRemoteControl.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +58,12 @@
 		BB7C6CA51FA0370E00FB592D /* ConcreateBus.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConcreateBus.m; sourceTree = "<group>"; };
 		BB7C6CA81FA03AFD00FB592D /* ConcreateStreet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConcreateStreet.h; sourceTree = "<group>"; };
 		BB7C6CA91FA03AFD00FB592D /* ConcreateStreet.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConcreateStreet.m; sourceTree = "<group>"; };
+		BBBB78201FA05A030063CCA6 /* AbstractPeople.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbstractPeople.h; sourceTree = "<group>"; };
+		BBBB78211FA05A030063CCA6 /* AbstractPeople.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AbstractPeople.m; sourceTree = "<group>"; };
+		BBBB78231FA05B440063CCA6 /* Man.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Man.h; sourceTree = "<group>"; };
+		BBBB78241FA05B440063CCA6 /* Man.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Man.m; sourceTree = "<group>"; };
+		BBBB78261FA05B500063CCA6 /* Women.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Women.h; sourceTree = "<group>"; };
+		BBBB78271FA05B500063CCA6 /* Women.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Women.m; sourceTree = "<group>"; };
 		BBFC5E831F9F2FE5009E9A3D /* BridgeDesignModel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BridgeDesignModel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBFC5E861F9F2FE5009E9A3D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BBFC5E871F9F2FE5009E9A3D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -70,17 +74,6 @@
 		BBFC5E921F9F2FE5009E9A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BBFC5E941F9F2FE5009E9A3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BBFC5E951F9F2FE5009E9A3D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		BBFC5E9D1F9F31D5009E9A3D /* TVProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TVProtocol.h; sourceTree = "<group>"; };
-		BBFC5E9E1F9F320F009E9A3D /* AbstractRemoteControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbstractRemoteControl.h; sourceTree = "<group>"; };
-		BBFC5E9F1F9F320F009E9A3D /* AbstractRemoteControl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AbstractRemoteControl.m; sourceTree = "<group>"; };
-		BBFC5EA11F9F32BF009E9A3D /* AbstractTV.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbstractTV.h; sourceTree = "<group>"; };
-		BBFC5EA21F9F32BF009E9A3D /* AbstractTV.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AbstractTV.m; sourceTree = "<group>"; };
-		BBFC5EA41F9F35DF009E9A3D /* TVA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TVA.h; sourceTree = "<group>"; };
-		BBFC5EA51F9F35DF009E9A3D /* TVA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TVA.m; sourceTree = "<group>"; };
-		BBFC5EA71F9F3672009E9A3D /* TVB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TVB.h; sourceTree = "<group>"; };
-		BBFC5EA81F9F3672009E9A3D /* TVB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TVB.m; sourceTree = "<group>"; };
-		BBFC5EAA1F9F3896009E9A3D /* ConcreteRemoteControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConcreteRemoteControl.h; sourceTree = "<group>"; };
-		BBFC5EAB1F9F3896009E9A3D /* ConcreteRemoteControl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConcreteRemoteControl.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,24 +87,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		BB7C6C7B1FA02B1700FB592D /* BridgeTwo */ = {
-			isa = PBXGroup;
-			children = (
-				BBFC5E9D1F9F31D5009E9A3D /* TVProtocol.h */,
-				BBFC5EA11F9F32BF009E9A3D /* AbstractTV.h */,
-				BBFC5EA21F9F32BF009E9A3D /* AbstractTV.m */,
-				BBFC5EA41F9F35DF009E9A3D /* TVA.h */,
-				BBFC5EA51F9F35DF009E9A3D /* TVA.m */,
-				BBFC5EA71F9F3672009E9A3D /* TVB.h */,
-				BBFC5EA81F9F3672009E9A3D /* TVB.m */,
-				BBFC5E9E1F9F320F009E9A3D /* AbstractRemoteControl.h */,
-				BBFC5E9F1F9F320F009E9A3D /* AbstractRemoteControl.m */,
-				BBFC5EAA1F9F3896009E9A3D /* ConcreteRemoteControl.h */,
-				BBFC5EAB1F9F3896009E9A3D /* ConcreteRemoteControl.m */,
-			);
-			path = BridgeTwo;
-			sourceTree = "<group>";
-		};
 		BB7C6C941FA02F2500FB592D /* BadExample */ = {
 			isa = PBXGroup;
 			children = (
@@ -152,6 +127,19 @@
 			path = SolveBadExample;
 			sourceTree = "<group>";
 		};
+		BBBB78291FA05C530063CCA6 /* Extend */ = {
+			isa = PBXGroup;
+			children = (
+				BBBB78201FA05A030063CCA6 /* AbstractPeople.h */,
+				BBBB78211FA05A030063CCA6 /* AbstractPeople.m */,
+				BBBB78231FA05B440063CCA6 /* Man.h */,
+				BBBB78241FA05B440063CCA6 /* Man.m */,
+				BBBB78261FA05B500063CCA6 /* Women.h */,
+				BBBB78271FA05B500063CCA6 /* Women.m */,
+			);
+			path = Extend;
+			sourceTree = "<group>";
+		};
 		BBFC5E7A1F9F2FE5009E9A3D = {
 			isa = PBXGroup;
 			children = (
@@ -177,7 +165,7 @@
 				BBFC5E8A1F9F2FE5009E9A3D /* ViewController.m */,
 				BB7C6C941FA02F2500FB592D /* BadExample */,
 				BB7C6CA71FA039F500FB592D /* SolveBadExample */,
-				BB7C6C7B1FA02B1700FB592D /* BridgeTwo */,
+				BBBB78291FA05C530063CCA6 /* Extend */,
 				BBFC5E8C1F9F2FE5009E9A3D /* Main.storyboard */,
 				BBFC5E8F1F9F2FE5009E9A3D /* Assets.xcassets */,
 				BBFC5E911F9F2FE5009E9A3D /* LaunchScreen.storyboard */,
@@ -258,10 +246,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBBB78281FA05B500063CCA6 /* Women.m in Sources */,
+				BBBB78251FA05B440063CCA6 /* Man.m in Sources */,
 				BB7C6CA61FA0370E00FB592D /* ConcreateBus.m in Sources */,
-				BBFC5EA31F9F32BF009E9A3D /* AbstractTV.m in Sources */,
 				BBFC5E8B1F9F2FE5009E9A3D /* ViewController.m in Sources */,
-				BBFC5EAC1F9F3896009E9A3D /* ConcreteRemoteControl.m in Sources */,
 				BB7C6CA31FA036F100FB592D /* ConcreateCar.m in Sources */,
 				BB7C6C971FA0329100FB592D /* AbstractRoad.m in Sources */,
 				BB7C6C901FA02ED000FB592D /* CarStreet.m in Sources */,
@@ -270,14 +258,12 @@
 				BB7C6CAA1FA03AFD00FB592D /* ConcreateStreet.m in Sources */,
 				BBFC5E961F9F2FE5009E9A3D /* main.m in Sources */,
 				BB7C6C811FA02D0B00FB592D /* Road.m in Sources */,
-				BBFC5EA61F9F35DF009E9A3D /* TVA.m in Sources */,
 				BB7C6C8A1FA02E4900FB592D /* CarSpeedWay.m in Sources */,
 				BB7C6C9A1FA032AB00FB592D /* AbstractCar.m in Sources */,
-				BBFC5EA91F9F3672009E9A3D /* TVB.m in Sources */,
 				BB7C6C931FA02EF500FB592D /* BusStreet.m in Sources */,
 				BBFC5E881F9F2FE5009E9A3D /* AppDelegate.m in Sources */,
-				BBFC5EA01F9F320F009E9A3D /* AbstractRemoteControl.m in Sources */,
 				BB7C6C8D1FA02E8400FB592D /* BusSpeedWay.m in Sources */,
+				BBBB78221FA05A030063CCA6 /* AbstractPeople.m in Sources */,
 				BB7C6C9D1FA033FD00FB592D /* ConcreteSpeedWay.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
