@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BB7C6C811FA02D0B00FB592D /* Road.m in Sources */ = {isa = PBXBuildFile; fileRef = BB7C6C801FA02D0B00FB592D /* Road.m */; };
+		BB7C6C841FA02D1C00FB592D /* SpeedWay.m in Sources */ = {isa = PBXBuildFile; fileRef = BB7C6C831FA02D1C00FB592D /* SpeedWay.m */; };
+		BB7C6C871FA02D9100FB592D /* Street.m in Sources */ = {isa = PBXBuildFile; fileRef = BB7C6C861FA02D9100FB592D /* Street.m */; };
+		BB7C6C8A1FA02E4900FB592D /* CarSpeedWay.m in Sources */ = {isa = PBXBuildFile; fileRef = BB7C6C891FA02E4900FB592D /* CarSpeedWay.m */; };
+		BB7C6C8D1FA02E8400FB592D /* BusSpeedWay.m in Sources */ = {isa = PBXBuildFile; fileRef = BB7C6C8C1FA02E8400FB592D /* BusSpeedWay.m */; };
+		BB7C6C901FA02ED000FB592D /* CarStreet.m in Sources */ = {isa = PBXBuildFile; fileRef = BB7C6C8F1FA02ED000FB592D /* CarStreet.m */; };
+		BB7C6C931FA02EF500FB592D /* BusStreet.m in Sources */ = {isa = PBXBuildFile; fileRef = BB7C6C921FA02EF500FB592D /* BusStreet.m */; };
+		BB7C6C971FA0329100FB592D /* AbstractRoad.m in Sources */ = {isa = PBXBuildFile; fileRef = BB7C6C961FA0329100FB592D /* AbstractRoad.m */; };
+		BB7C6C9A1FA032AB00FB592D /* AbstractCar.m in Sources */ = {isa = PBXBuildFile; fileRef = BB7C6C991FA032AB00FB592D /* AbstractCar.m */; };
+		BB7C6C9D1FA033FD00FB592D /* ConcreteSpeedWay.m in Sources */ = {isa = PBXBuildFile; fileRef = BB7C6C9C1FA033FD00FB592D /* ConcreteSpeedWay.m */; };
+		BB7C6CA31FA036F100FB592D /* ConcreateCar.m in Sources */ = {isa = PBXBuildFile; fileRef = BB7C6CA21FA036F100FB592D /* ConcreateCar.m */; };
+		BB7C6CA61FA0370E00FB592D /* ConcreateBus.m in Sources */ = {isa = PBXBuildFile; fileRef = BB7C6CA51FA0370E00FB592D /* ConcreateBus.m */; };
+		BB7C6CAA1FA03AFD00FB592D /* ConcreateStreet.m in Sources */ = {isa = PBXBuildFile; fileRef = BB7C6CA91FA03AFD00FB592D /* ConcreateStreet.m */; };
 		BBFC5E881F9F2FE5009E9A3D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BBFC5E871F9F2FE5009E9A3D /* AppDelegate.m */; };
 		BBFC5E8B1F9F2FE5009E9A3D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BBFC5E8A1F9F2FE5009E9A3D /* ViewController.m */; };
 		BBFC5E8E1F9F2FE5009E9A3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBFC5E8C1F9F2FE5009E9A3D /* Main.storyboard */; };
@@ -21,6 +34,32 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BB7C6C7F1FA02D0B00FB592D /* Road.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Road.h; sourceTree = "<group>"; };
+		BB7C6C801FA02D0B00FB592D /* Road.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Road.m; sourceTree = "<group>"; };
+		BB7C6C821FA02D1C00FB592D /* SpeedWay.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpeedWay.h; sourceTree = "<group>"; };
+		BB7C6C831FA02D1C00FB592D /* SpeedWay.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpeedWay.m; sourceTree = "<group>"; };
+		BB7C6C851FA02D9100FB592D /* Street.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Street.h; sourceTree = "<group>"; };
+		BB7C6C861FA02D9100FB592D /* Street.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Street.m; sourceTree = "<group>"; };
+		BB7C6C881FA02E4900FB592D /* CarSpeedWay.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CarSpeedWay.h; sourceTree = "<group>"; };
+		BB7C6C891FA02E4900FB592D /* CarSpeedWay.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CarSpeedWay.m; sourceTree = "<group>"; };
+		BB7C6C8B1FA02E8400FB592D /* BusSpeedWay.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BusSpeedWay.h; sourceTree = "<group>"; };
+		BB7C6C8C1FA02E8400FB592D /* BusSpeedWay.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BusSpeedWay.m; sourceTree = "<group>"; };
+		BB7C6C8E1FA02ED000FB592D /* CarStreet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CarStreet.h; sourceTree = "<group>"; };
+		BB7C6C8F1FA02ED000FB592D /* CarStreet.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CarStreet.m; sourceTree = "<group>"; };
+		BB7C6C911FA02EF500FB592D /* BusStreet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BusStreet.h; sourceTree = "<group>"; };
+		BB7C6C921FA02EF500FB592D /* BusStreet.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BusStreet.m; sourceTree = "<group>"; };
+		BB7C6C951FA0329100FB592D /* AbstractRoad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbstractRoad.h; sourceTree = "<group>"; };
+		BB7C6C961FA0329100FB592D /* AbstractRoad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AbstractRoad.m; sourceTree = "<group>"; };
+		BB7C6C981FA032AB00FB592D /* AbstractCar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbstractCar.h; sourceTree = "<group>"; };
+		BB7C6C991FA032AB00FB592D /* AbstractCar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AbstractCar.m; sourceTree = "<group>"; };
+		BB7C6C9B1FA033FD00FB592D /* ConcreteSpeedWay.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConcreteSpeedWay.h; sourceTree = "<group>"; };
+		BB7C6C9C1FA033FD00FB592D /* ConcreteSpeedWay.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConcreteSpeedWay.m; sourceTree = "<group>"; };
+		BB7C6CA11FA036F100FB592D /* ConcreateCar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConcreateCar.h; sourceTree = "<group>"; };
+		BB7C6CA21FA036F100FB592D /* ConcreateCar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConcreateCar.m; sourceTree = "<group>"; };
+		BB7C6CA41FA0370E00FB592D /* ConcreateBus.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConcreateBus.h; sourceTree = "<group>"; };
+		BB7C6CA51FA0370E00FB592D /* ConcreateBus.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConcreateBus.m; sourceTree = "<group>"; };
+		BB7C6CA81FA03AFD00FB592D /* ConcreateStreet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConcreateStreet.h; sourceTree = "<group>"; };
+		BB7C6CA91FA03AFD00FB592D /* ConcreateStreet.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConcreateStreet.m; sourceTree = "<group>"; };
 		BBFC5E831F9F2FE5009E9A3D /* BridgeDesignModel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BridgeDesignModel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBFC5E861F9F2FE5009E9A3D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BBFC5E871F9F2FE5009E9A3D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -55,6 +94,64 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BB7C6C7B1FA02B1700FB592D /* BridgeTwo */ = {
+			isa = PBXGroup;
+			children = (
+				BBFC5E9D1F9F31D5009E9A3D /* TVProtocol.h */,
+				BBFC5EA11F9F32BF009E9A3D /* AbstractTV.h */,
+				BBFC5EA21F9F32BF009E9A3D /* AbstractTV.m */,
+				BBFC5EA41F9F35DF009E9A3D /* TVA.h */,
+				BBFC5EA51F9F35DF009E9A3D /* TVA.m */,
+				BBFC5EA71F9F3672009E9A3D /* TVB.h */,
+				BBFC5EA81F9F3672009E9A3D /* TVB.m */,
+				BBFC5E9E1F9F320F009E9A3D /* AbstractRemoteControl.h */,
+				BBFC5E9F1F9F320F009E9A3D /* AbstractRemoteControl.m */,
+				BBFC5EAA1F9F3896009E9A3D /* ConcreteRemoteControl.h */,
+				BBFC5EAB1F9F3896009E9A3D /* ConcreteRemoteControl.m */,
+			);
+			path = BridgeTwo;
+			sourceTree = "<group>";
+		};
+		BB7C6C941FA02F2500FB592D /* BadExample */ = {
+			isa = PBXGroup;
+			children = (
+				BB7C6C7F1FA02D0B00FB592D /* Road.h */,
+				BB7C6C801FA02D0B00FB592D /* Road.m */,
+				BB7C6C821FA02D1C00FB592D /* SpeedWay.h */,
+				BB7C6C831FA02D1C00FB592D /* SpeedWay.m */,
+				BB7C6C881FA02E4900FB592D /* CarSpeedWay.h */,
+				BB7C6C891FA02E4900FB592D /* CarSpeedWay.m */,
+				BB7C6C8B1FA02E8400FB592D /* BusSpeedWay.h */,
+				BB7C6C8C1FA02E8400FB592D /* BusSpeedWay.m */,
+				BB7C6C851FA02D9100FB592D /* Street.h */,
+				BB7C6C861FA02D9100FB592D /* Street.m */,
+				BB7C6C8E1FA02ED000FB592D /* CarStreet.h */,
+				BB7C6C8F1FA02ED000FB592D /* CarStreet.m */,
+				BB7C6C911FA02EF500FB592D /* BusStreet.h */,
+				BB7C6C921FA02EF500FB592D /* BusStreet.m */,
+			);
+			path = BadExample;
+			sourceTree = "<group>";
+		};
+		BB7C6CA71FA039F500FB592D /* SolveBadExample */ = {
+			isa = PBXGroup;
+			children = (
+				BB7C6C951FA0329100FB592D /* AbstractRoad.h */,
+				BB7C6C961FA0329100FB592D /* AbstractRoad.m */,
+				BB7C6C9B1FA033FD00FB592D /* ConcreteSpeedWay.h */,
+				BB7C6C9C1FA033FD00FB592D /* ConcreteSpeedWay.m */,
+				BB7C6CA81FA03AFD00FB592D /* ConcreateStreet.h */,
+				BB7C6CA91FA03AFD00FB592D /* ConcreateStreet.m */,
+				BB7C6C981FA032AB00FB592D /* AbstractCar.h */,
+				BB7C6C991FA032AB00FB592D /* AbstractCar.m */,
+				BB7C6CA11FA036F100FB592D /* ConcreateCar.h */,
+				BB7C6CA21FA036F100FB592D /* ConcreateCar.m */,
+				BB7C6CA41FA0370E00FB592D /* ConcreateBus.h */,
+				BB7C6CA51FA0370E00FB592D /* ConcreateBus.m */,
+			);
+			path = SolveBadExample;
+			sourceTree = "<group>";
+		};
 		BBFC5E7A1F9F2FE5009E9A3D = {
 			isa = PBXGroup;
 			children = (
@@ -78,17 +175,9 @@
 				BBFC5E871F9F2FE5009E9A3D /* AppDelegate.m */,
 				BBFC5E891F9F2FE5009E9A3D /* ViewController.h */,
 				BBFC5E8A1F9F2FE5009E9A3D /* ViewController.m */,
-				BBFC5E9D1F9F31D5009E9A3D /* TVProtocol.h */,
-				BBFC5EA11F9F32BF009E9A3D /* AbstractTV.h */,
-				BBFC5EA21F9F32BF009E9A3D /* AbstractTV.m */,
-				BBFC5EA41F9F35DF009E9A3D /* TVA.h */,
-				BBFC5EA51F9F35DF009E9A3D /* TVA.m */,
-				BBFC5EA71F9F3672009E9A3D /* TVB.h */,
-				BBFC5EA81F9F3672009E9A3D /* TVB.m */,
-				BBFC5E9E1F9F320F009E9A3D /* AbstractRemoteControl.h */,
-				BBFC5E9F1F9F320F009E9A3D /* AbstractRemoteControl.m */,
-				BBFC5EAA1F9F3896009E9A3D /* ConcreteRemoteControl.h */,
-				BBFC5EAB1F9F3896009E9A3D /* ConcreteRemoteControl.m */,
+				BB7C6C941FA02F2500FB592D /* BadExample */,
+				BB7C6CA71FA039F500FB592D /* SolveBadExample */,
+				BB7C6C7B1FA02B1700FB592D /* BridgeTwo */,
 				BBFC5E8C1F9F2FE5009E9A3D /* Main.storyboard */,
 				BBFC5E8F1F9F2FE5009E9A3D /* Assets.xcassets */,
 				BBFC5E911F9F2FE5009E9A3D /* LaunchScreen.storyboard */,
@@ -169,14 +258,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB7C6CA61FA0370E00FB592D /* ConcreateBus.m in Sources */,
 				BBFC5EA31F9F32BF009E9A3D /* AbstractTV.m in Sources */,
 				BBFC5E8B1F9F2FE5009E9A3D /* ViewController.m in Sources */,
 				BBFC5EAC1F9F3896009E9A3D /* ConcreteRemoteControl.m in Sources */,
+				BB7C6CA31FA036F100FB592D /* ConcreateCar.m in Sources */,
+				BB7C6C971FA0329100FB592D /* AbstractRoad.m in Sources */,
+				BB7C6C901FA02ED000FB592D /* CarStreet.m in Sources */,
+				BB7C6C841FA02D1C00FB592D /* SpeedWay.m in Sources */,
+				BB7C6C871FA02D9100FB592D /* Street.m in Sources */,
+				BB7C6CAA1FA03AFD00FB592D /* ConcreateStreet.m in Sources */,
 				BBFC5E961F9F2FE5009E9A3D /* main.m in Sources */,
+				BB7C6C811FA02D0B00FB592D /* Road.m in Sources */,
 				BBFC5EA61F9F35DF009E9A3D /* TVA.m in Sources */,
+				BB7C6C8A1FA02E4900FB592D /* CarSpeedWay.m in Sources */,
+				BB7C6C9A1FA032AB00FB592D /* AbstractCar.m in Sources */,
 				BBFC5EA91F9F3672009E9A3D /* TVB.m in Sources */,
+				BB7C6C931FA02EF500FB592D /* BusStreet.m in Sources */,
 				BBFC5E881F9F2FE5009E9A3D /* AppDelegate.m in Sources */,
 				BBFC5EA01F9F320F009E9A3D /* AbstractRemoteControl.m in Sources */,
+				BB7C6C8D1FA02E8400FB592D /* BusSpeedWay.m in Sources */,
+				BB7C6C9D1FA033FD00FB592D /* ConcreteSpeedWay.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
