@@ -1,0 +1,361 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BBFC5E881F9F2FE5009E9A3D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BBFC5E871F9F2FE5009E9A3D /* AppDelegate.m */; };
+		BBFC5E8B1F9F2FE5009E9A3D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BBFC5E8A1F9F2FE5009E9A3D /* ViewController.m */; };
+		BBFC5E8E1F9F2FE5009E9A3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBFC5E8C1F9F2FE5009E9A3D /* Main.storyboard */; };
+		BBFC5E901F9F2FE5009E9A3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBFC5E8F1F9F2FE5009E9A3D /* Assets.xcassets */; };
+		BBFC5E931F9F2FE5009E9A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBFC5E911F9F2FE5009E9A3D /* LaunchScreen.storyboard */; };
+		BBFC5E961F9F2FE5009E9A3D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BBFC5E951F9F2FE5009E9A3D /* main.m */; };
+		BBFC5EA01F9F320F009E9A3D /* AbstractRemoteControl.m in Sources */ = {isa = PBXBuildFile; fileRef = BBFC5E9F1F9F320F009E9A3D /* AbstractRemoteControl.m */; };
+		BBFC5EA31F9F32BF009E9A3D /* AbstractTV.m in Sources */ = {isa = PBXBuildFile; fileRef = BBFC5EA21F9F32BF009E9A3D /* AbstractTV.m */; };
+		BBFC5EA61F9F35DF009E9A3D /* TVA.m in Sources */ = {isa = PBXBuildFile; fileRef = BBFC5EA51F9F35DF009E9A3D /* TVA.m */; };
+		BBFC5EA91F9F3672009E9A3D /* TVB.m in Sources */ = {isa = PBXBuildFile; fileRef = BBFC5EA81F9F3672009E9A3D /* TVB.m */; };
+		BBFC5EAC1F9F3896009E9A3D /* ConcreteRemoteControl.m in Sources */ = {isa = PBXBuildFile; fileRef = BBFC5EAB1F9F3896009E9A3D /* ConcreteRemoteControl.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BBFC5E831F9F2FE5009E9A3D /* BridgeDesignModel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BridgeDesignModel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBFC5E861F9F2FE5009E9A3D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BBFC5E871F9F2FE5009E9A3D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BBFC5E891F9F2FE5009E9A3D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BBFC5E8A1F9F2FE5009E9A3D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BBFC5E8D1F9F2FE5009E9A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BBFC5E8F1F9F2FE5009E9A3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BBFC5E921F9F2FE5009E9A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BBFC5E941F9F2FE5009E9A3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBFC5E951F9F2FE5009E9A3D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BBFC5E9D1F9F31D5009E9A3D /* TVProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TVProtocol.h; sourceTree = "<group>"; };
+		BBFC5E9E1F9F320F009E9A3D /* AbstractRemoteControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbstractRemoteControl.h; sourceTree = "<group>"; };
+		BBFC5E9F1F9F320F009E9A3D /* AbstractRemoteControl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AbstractRemoteControl.m; sourceTree = "<group>"; };
+		BBFC5EA11F9F32BF009E9A3D /* AbstractTV.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbstractTV.h; sourceTree = "<group>"; };
+		BBFC5EA21F9F32BF009E9A3D /* AbstractTV.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AbstractTV.m; sourceTree = "<group>"; };
+		BBFC5EA41F9F35DF009E9A3D /* TVA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TVA.h; sourceTree = "<group>"; };
+		BBFC5EA51F9F35DF009E9A3D /* TVA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TVA.m; sourceTree = "<group>"; };
+		BBFC5EA71F9F3672009E9A3D /* TVB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TVB.h; sourceTree = "<group>"; };
+		BBFC5EA81F9F3672009E9A3D /* TVB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TVB.m; sourceTree = "<group>"; };
+		BBFC5EAA1F9F3896009E9A3D /* ConcreteRemoteControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConcreteRemoteControl.h; sourceTree = "<group>"; };
+		BBFC5EAB1F9F3896009E9A3D /* ConcreteRemoteControl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConcreteRemoteControl.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BBFC5E801F9F2FE5009E9A3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BBFC5E7A1F9F2FE5009E9A3D = {
+			isa = PBXGroup;
+			children = (
+				BBFC5E851F9F2FE5009E9A3D /* BridgeDesignModel */,
+				BBFC5E841F9F2FE5009E9A3D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BBFC5E841F9F2FE5009E9A3D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BBFC5E831F9F2FE5009E9A3D /* BridgeDesignModel.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBFC5E851F9F2FE5009E9A3D /* BridgeDesignModel */ = {
+			isa = PBXGroup;
+			children = (
+				BBFC5E861F9F2FE5009E9A3D /* AppDelegate.h */,
+				BBFC5E871F9F2FE5009E9A3D /* AppDelegate.m */,
+				BBFC5E891F9F2FE5009E9A3D /* ViewController.h */,
+				BBFC5E8A1F9F2FE5009E9A3D /* ViewController.m */,
+				BBFC5E9D1F9F31D5009E9A3D /* TVProtocol.h */,
+				BBFC5EA11F9F32BF009E9A3D /* AbstractTV.h */,
+				BBFC5EA21F9F32BF009E9A3D /* AbstractTV.m */,
+				BBFC5EA41F9F35DF009E9A3D /* TVA.h */,
+				BBFC5EA51F9F35DF009E9A3D /* TVA.m */,
+				BBFC5EA71F9F3672009E9A3D /* TVB.h */,
+				BBFC5EA81F9F3672009E9A3D /* TVB.m */,
+				BBFC5E9E1F9F320F009E9A3D /* AbstractRemoteControl.h */,
+				BBFC5E9F1F9F320F009E9A3D /* AbstractRemoteControl.m */,
+				BBFC5EAA1F9F3896009E9A3D /* ConcreteRemoteControl.h */,
+				BBFC5EAB1F9F3896009E9A3D /* ConcreteRemoteControl.m */,
+				BBFC5E8C1F9F2FE5009E9A3D /* Main.storyboard */,
+				BBFC5E8F1F9F2FE5009E9A3D /* Assets.xcassets */,
+				BBFC5E911F9F2FE5009E9A3D /* LaunchScreen.storyboard */,
+				BBFC5E941F9F2FE5009E9A3D /* Info.plist */,
+				BBFC5E951F9F2FE5009E9A3D /* main.m */,
+			);
+			path = BridgeDesignModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BBFC5E821F9F2FE5009E9A3D /* BridgeDesignModel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBFC5E991F9F2FE5009E9A3D /* Build configuration list for PBXNativeTarget "BridgeDesignModel" */;
+			buildPhases = (
+				BBFC5E7F1F9F2FE5009E9A3D /* Sources */,
+				BBFC5E801F9F2FE5009E9A3D /* Frameworks */,
+				BBFC5E811F9F2FE5009E9A3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BridgeDesignModel;
+			productName = BridgeDesignModel;
+			productReference = BBFC5E831F9F2FE5009E9A3D /* BridgeDesignModel.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BBFC5E7B1F9F2FE5009E9A3D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = DeLongYang;
+				TargetAttributes = {
+					BBFC5E821F9F2FE5009E9A3D = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = BBFC5E7E1F9F2FE5009E9A3D /* Build configuration list for PBXProject "BridgeDesignModel" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BBFC5E7A1F9F2FE5009E9A3D;
+			productRefGroup = BBFC5E841F9F2FE5009E9A3D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BBFC5E821F9F2FE5009E9A3D /* BridgeDesignModel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BBFC5E811F9F2FE5009E9A3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBFC5E931F9F2FE5009E9A3D /* LaunchScreen.storyboard in Resources */,
+				BBFC5E901F9F2FE5009E9A3D /* Assets.xcassets in Resources */,
+				BBFC5E8E1F9F2FE5009E9A3D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BBFC5E7F1F9F2FE5009E9A3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBFC5EA31F9F32BF009E9A3D /* AbstractTV.m in Sources */,
+				BBFC5E8B1F9F2FE5009E9A3D /* ViewController.m in Sources */,
+				BBFC5EAC1F9F3896009E9A3D /* ConcreteRemoteControl.m in Sources */,
+				BBFC5E961F9F2FE5009E9A3D /* main.m in Sources */,
+				BBFC5EA61F9F35DF009E9A3D /* TVA.m in Sources */,
+				BBFC5EA91F9F3672009E9A3D /* TVB.m in Sources */,
+				BBFC5E881F9F2FE5009E9A3D /* AppDelegate.m in Sources */,
+				BBFC5EA01F9F320F009E9A3D /* AbstractRemoteControl.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BBFC5E8C1F9F2FE5009E9A3D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BBFC5E8D1F9F2FE5009E9A3D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BBFC5E911F9F2FE5009E9A3D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BBFC5E921F9F2FE5009E9A3D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BBFC5E971F9F2FE5009E9A3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BBFC5E981F9F2FE5009E9A3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BBFC5E9A1F9F2FE5009E9A3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BridgeDesignModel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DeLongYang.BridgeDesignModel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BBFC5E9B1F9F2FE5009E9A3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BridgeDesignModel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DeLongYang.BridgeDesignModel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BBFC5E7E1F9F2FE5009E9A3D /* Build configuration list for PBXProject "BridgeDesignModel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBFC5E971F9F2FE5009E9A3D /* Debug */,
+				BBFC5E981F9F2FE5009E9A3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBFC5E991F9F2FE5009E9A3D /* Build configuration list for PBXNativeTarget "BridgeDesignModel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBFC5E9A1F9F2FE5009E9A3D /* Debug */,
+				BBFC5E9B1F9F2FE5009E9A3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BBFC5E7B1F9F2FE5009E9A3D /* Project object */;
+}
